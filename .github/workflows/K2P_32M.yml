@@ -73,6 +73,8 @@ jobs:
       
     - name: Update helloworld
       run: cd openwrt &&  ./scripts/feeds update helloworld
+      
+    - name: Install helloworld
       run: cd openwrt &&  ./scripts/feeds install -a -f -p helloworld
 
     - name: Update feeds
