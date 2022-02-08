@@ -29,16 +29,10 @@ git clone https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom package
 #添加额外非必须软件包
 # git clone https://github.com/rufengsuixing/luci-app-adguardhome.git package/luci-app-adguardhome
 # git clone https://github.com/vernesong/OpenClash.git package/OpenClash
-git clone https://github.com/tcsr200722/luci-app-cpufreq.git package/luci-app-cpufreq
-git clone https://github.com/destan19/OpenAppFilter.git package/OpenAppFilter
 git clone https://github.com/zzsj0928/luci-app-pushbot.git package/luci-app-pushbot
-git clone https://github.com/riverscn/openwrt-iptvhelper.git package/openwrt-iptvhelper
-git clone https://github.com/jerrykuku/luci-app-jd-dailybonus.git package/luci-app-jd-dailybonus
-
-#添加smartdns
-git clone https://github.com/kiddin9/luci-app-dnsfilter.git package/luci-app-dnsfilter
 git clone https://github.com/pymumu/openwrt-smartdns package/smartdns
 git clone -b lede https://github.com/pymumu/luci-app-smartdns.git package/luci-app-smartdns
+
 # Add luci-theme-argon
 # git clone --depth=1 -b 18.06 https://github.com/jerrykuku/luci-theme-argon
 # git clone --depth=1 https://github.com/jerrykuku/luci-app-argon-config
