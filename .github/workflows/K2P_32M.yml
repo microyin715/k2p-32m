@@ -70,6 +70,10 @@ jobs:
         
     - name: Update clean     
       run: cd openwrt && ./scripts/feeds clean
+      
+    - name: Update helloworld
+      run: cd openwrt &&  ./scripts/feeds update helloworld
+      run: cd openwrt &&  ./scripts/feeds install -a -f -p helloworld
 
     - name: Update feeds
       run: cd openwrt && ./scripts/feeds update -a
